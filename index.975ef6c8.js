@@ -18597,25 +18597,25 @@ function App() {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                 fileName: "src/components/App/App.js",
-                lineNumber: 14,
+                lineNumber: 8,
                 columnNumber: 4
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "game-wrapper",
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _gameDefault.default), {}, void 0, false, {
                     fileName: "src/components/App/App.js",
-                    lineNumber: 16,
+                    lineNumber: 10,
                     columnNumber: 5
                 }, this)
             }, void 0, false, {
                 fileName: "src/components/App/App.js",
-                lineNumber: 15,
+                lineNumber: 9,
                 columnNumber: 4
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/components/App/App.js",
-        lineNumber: 13,
+        lineNumber: 7,
         columnNumber: 3
     }, this);
 }
@@ -19172,13 +19172,13 @@ function GuessTracer({ itemList, answer }) {
                 answer: answer
             }, num, false, {
                 fileName: "src/components/GuessTracer/GuessTracer.js",
-                lineNumber: 12,
+                lineNumber: 11,
                 columnNumber: 6
             }, this);
         })
     }, void 0, false, {
         fileName: "src/components/GuessTracer/GuessTracer.js",
-        lineNumber: 9,
+        lineNumber: 8,
         columnNumber: 3
     }, this);
 }
