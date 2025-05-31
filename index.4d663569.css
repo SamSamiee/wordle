@@ -71,6 +71,7 @@ h1 {
 }
 
 .game-wrapper {
+  justify-content: center;
   gap: var(--game-spacing);
   padding: var(--game-spacing) 32px;
   flex-direction: column;
@@ -106,6 +107,12 @@ h1 {
   transition: all .17s;
   display: grid;
   position: relative;
+}
+
+@media (height <= 600px) {
+  .cell {
+    font-size: 1rem;
+  }
 }
 
 .cell.correct {
@@ -177,11 +184,13 @@ h1 {
 .happy.banner {
   background: var(--color-success);
   color: #fff;
+  z-index: 5;
 }
 
 .sad.banner {
   background: var(--color-error);
   color: #fff;
+  z-index: 5;
 }
 
 .visually-hidden {
