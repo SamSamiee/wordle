@@ -19264,14 +19264,23 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 function Header() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("header", {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-            children: "wordle"
-        }, void 0, false, {
-            fileName: "src/components/Header/Header.js",
-            lineNumber: 6,
-            columnNumber: 4
-        }, this)
-    }, void 0, false, {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                children: "infidel"
+            }, void 0, false, {
+                fileName: "src/components/Header/Header.js",
+                lineNumber: 6,
+                columnNumber: 4
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                children: "stands for infinite wordle"
+            }, void 0, false, {
+                fileName: "src/components/Header/Header.js",
+                lineNumber: 7,
+                columnNumber: 4
+            }, this)
+        ]
+    }, void 0, true, {
         fileName: "src/components/Header/Header.js",
         lineNumber: 5,
         columnNumber: 3
