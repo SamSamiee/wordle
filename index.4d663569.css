@@ -47,15 +47,19 @@ button {
 
 header {
   height: var(--header-height);
-  color: var(--color-gray-300);
+  color: #fff;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  padding-left: 30px;
   display: flex;
 }
 
-header p, h1 {
-  text-align: left;
-  width: 50%;
+header p, header h1 {
+  text-align: center;
+}
+
+header > p {
+  margin-top: -30px;
 }
 
 header .side {
